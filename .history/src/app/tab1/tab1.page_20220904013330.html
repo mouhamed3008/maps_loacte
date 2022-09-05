@@ -1,0 +1,15 @@
+<ion-header class="ion-no-border">
+    <ion-toolbar>
+        <ion-title mode="md" class="ion-no-padding">
+            <ion-label>
+                <ion-text color="medium">NOW</ion-text>
+                <ion-icon name="arrow-forward-outline" color="medium"></ion-icon>
+            </ion-label>
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+    <agm-map [zoom]="15" [disableDefaultUI]="false">
+        <agm-marker [latitude]="lat" [longitude]="lng" [markerDraggable]=true></agm-marker>
+    </agm-map>
+</ion-content>

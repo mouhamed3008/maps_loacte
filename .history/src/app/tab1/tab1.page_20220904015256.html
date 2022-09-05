@@ -1,0 +1,14 @@
+<ion-header class="ion-no-border">
+    <ion-toolbar>
+        <ion-title mode="md" class="ion-no-padding">
+            <ion-label>
+                <ion-text color="medium">NOW</ion-text>
+                <ion-icon name="arrow-forward-outline" color="medium"></ion-icon>
+            </ion-label>
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+    <agm-map [zoomControl]="false" [fullscreenControl]="false" [fullscreenControlOptions]="rideService.screenOptions">
+    </agm-map>
+</ion-content>

@@ -1,0 +1,20 @@
+<ion-header class="ion-no-border">
+    <ion-toolbar>
+        <ion-title mode="md" class="ion-no-padding">
+            <ion-label>
+                <ion-text color="medium">NOW</ion-text>
+                <ion-icon name="arrow-forward-outline" color="medium"></ion-icon>
+            </ion-label>
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+    <ion-text><strong>{{loc}}</strong></ion-text>
+    <ion-header collapse="condense">
+        <ion-toolbar>
+            <ion-title size="large">Tab 1</ion-title>
+        </ion-toolbar>
+    </ion-header>
+
+    <app-explore-container name="Tab 1 page"></app-explore-container>
+</ion-content>
